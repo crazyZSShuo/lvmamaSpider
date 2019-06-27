@@ -35,7 +35,7 @@ ROBOTSTXT_OBEY = False
 #concurrent_requests_per_ip = 16
 
 # disable cookies (enabled by default)
-#cookies_enabled = false
+cookies_enabled = True
 
 # disable telnet console (enabled by default)
 #telnetconsole_enabled = false

@@ -7,6 +7,8 @@ import logging
 
 
 
+
+
 # 抓取所有IP
 def get_ips():
 	# urls = ['https://www.xicidaili.com/nn/{page}'.format(page=i) for i in range(1,5)]
@@ -96,7 +98,7 @@ if __name__ == '__main__':
 	ip = Validate_ip()
 	useful_ips = ip.validate_ips(ip_dict)
 	print(useful_ips)
-		
+	
 
 
 
